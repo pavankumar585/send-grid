@@ -1,0 +1,22 @@
+{
+  "name": "send-grid",
+  "version": "1.0.0",
+  "description": "testing sending mails using send-grid",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "send-grid",
+    "express",
+    "node",
+    "mongodb"
+  ],
+  "author": "Pavan Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "dotenv": "^16.3.1"
+  }
+}
